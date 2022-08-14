@@ -22,6 +22,10 @@ client.on('interactionCreate', async interaction => {
     if (interaction.commandName === 'ping') {
       await interaction.reply('Pong!');
     }
+
+    else if (interaction.commandName === 'tik') {
+      await interaction.reply('Tok!');
+    }
   });
 
 client.login(process.env.TOKEN);  
