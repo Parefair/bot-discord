@@ -22,9 +22,11 @@ client.on('interactionCreate', async interaction => {
     if (interaction.commandName === 'ping') {
       await interaction.reply('Pong!');
     }
-
     else if (interaction.commandName === 'tik') {
       await interaction.reply('Tok!');
+    }
+    else if (interaction.commandName === 'jing') {
+      await interaction.reply('Jang!');
     }
   });
 

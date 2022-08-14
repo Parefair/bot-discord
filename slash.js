@@ -14,6 +14,10 @@ const commands = [
     name: 'tik',
     description: 'Replies with Tok!',
   },
+  {
+    name: 'jing',
+    description: 'Replies with Jang!',
+  },
 ];
 
 const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
